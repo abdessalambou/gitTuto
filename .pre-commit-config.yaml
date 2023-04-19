@@ -1,0 +1,7 @@
+repos:
+- repo: local
+  hooks:
+      - id: pdoc
+        name: pdoc
+        language: system
+        entry: pdoc --html --force -o ./docs file1.py
